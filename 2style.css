@@ -1,0 +1,148 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+ ul{
+    list-style-type:none;
+    display: inline;
+    text-align: right;
+ }
+ li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 20px;
+}
+
+.header{
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(40, 201, 206);
+}
+.logo{
+    width: 300px;
+    background-color: lightgreen;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+}
+.menu{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(249, 254, 249);
+    float:none  
+}
+
+ .father{
+    width: 600px;
+    height: 300px;
+    background-color:rgb(52, 16, 26);
+    position: relative;
+    
+ }
+ .child1 {
+    width: 100px;
+    height: 60px;
+    background-color: rgba(254, 254, 250, 0.904);
+    position: absolute;
+    left: 0;
+ }
+ .child2 {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(250, 230, 8);
+    position: absolute;
+    right: 0;
+ }
+ .child3 {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(231, 17, 21);
+    position: absolute;
+    bottom: 0;
+}
+ .child4 {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(45, 163, 108);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+ 
+ p{
+    width: 700px;
+    height: 251px;
+    border: 1px solid rgb(6, 5, 0);
+    overflow: auto;
+ }
+
+.boxmodel{
+    width: 400px;
+    height: 300px;
+    border-color: #ffea04fe;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+
+}
+
+ ul{
+    list-style-type:circle;
+ }
+ ol{
+    list-style-type:lower-roman;
+ }
+.bordervCss{
+    width: 500px;
+    height: 300px;
+    background-color: #ffea04fe;
+    border-width: 5px;
+    border-color:rgb(6, 5, 0);
+    border-style:dotted ;
+    border-radius: 30px;
+}
+
+#textcss{
+    font-family: 'NOTO Serif KR', sans-serif ;
+    color: chocolate;
+    letter-spacing: 50px;
+    word-spacing: 2px;
+    /* direction: ltr; */
+    /* text-indent: 50px; */
+    text-align: left;
+    text-transform: lowercase;
+    
+}
+
+#fontcss{
+    font-family: "Sofia", sans-serif;
+    font-variant: small-caps;
+    font-size: 4em;
+    font-style: italic;
+    font-weight: bold;
+
+}
+#my fristid{
+    color: #dd0f31;
+}
+.backimg{
+    width: 100%;
+    height: 100vh;
+    /*background-color: deepskyblue;*/
+    background-image: url('car.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.backIMG{
+    width: 100%;
+    height: 100vh;
+    /*background-color: deepskyblue;*/
+    background-image: url('IMG.JPG');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-attachment: fixed;
+}
